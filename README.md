@@ -2,7 +2,7 @@
 
 
 # Overview
-## Create a program that allows Users to input and rate a list of food trucks, then view the average rating and the highest-rated truck.
+## Create a fleet of jets with different capabilities. The application will display menu to use/add/delete the jets and access information about them.
 
 # Technologies Used
 
