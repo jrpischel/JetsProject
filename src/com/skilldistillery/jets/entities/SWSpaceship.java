@@ -21,7 +21,7 @@ public class SWSpaceship extends Jet implements Warpable {
 
 	@Override
 	public void fly() {
-		System.out.println("Engage repuslor lifts");
+		System.out.println("Engage repuslor lifts for takeoff");
 		System.out.println(model + " " + speed + " " + range + " " +  price);
 		System.out.println("We can fly for " + range / speed + " hours before needing to refuel\n");
 	}

@@ -31,27 +31,30 @@ public class JetsApp {
 				airField.listFleet();
 				break;
 			case 2:
-				airField.flyAll();
+				airField.singleFly(kb);
 				break;
 			case 3:
-				airField.fastestJet();
+				airField.flyAll();
 				break;
 			case 4:
-				airField.longestRange();
+				airField.fastestJet();
 				break;
 			case 5:
-				airField.warpAll();
+				airField.longestRange();
 				break;
 			case 6:
-				airField.hoverAll();
+				airField.warpAll();
 				break;
 			case 7:
-				airField.addJet(kb);
+				airField.hoverAll();
 				break;
 			case 8:
-				airField.removeJet(kb);
+				airField.addJet(kb);
 				break;
 			case 9:
+				airField.removeJet(kb);
+				break;
+			case 10:
 				System.out.println("Good Bye");
 				break;
 			default:
@@ -65,17 +68,18 @@ public class JetsApp {
 	
 	public void menu() {
 
-		System.out.println("**********************************");
-		System.out.println("* 1. List Fleet                  *");
-		System.out.println("* 2. Fly All Jets                *");
-		System.out.println("* 3. View Fastest Jet            *");
-		System.out.println("* 4. View Jet With Longest Range *");
-		System.out.println("* 5. Warp all Spaceships         *");
-		System.out.println("* 6. Hover all Air Craft         *");
-		System.out.println("* 7. Add A Jet To The Fleet      *");
-		System.out.println("* 8. Remove A Jet From The Fleet *");
-		System.out.println("* 9. Quit                        *");
-		System.out.println("**********************************");
+		System.out.println("***********************************");
+		System.out.println("* 1.  List Fleet                  *");
+		System.out.println("* 2.  Fly One Jet                 *");
+		System.out.println("* 3.  Fly All Jets                *");
+		System.out.println("* 4.  View Fastest Jet            *");
+		System.out.println("* 5.  View Jet With Longest Range *");
+		System.out.println("* 6.  Warp all Spaceships         *");
+		System.out.println("* 7.  Hover all Air Craft         *");
+		System.out.println("* 8.  Add A Jet To The Fleet      *");
+		System.out.println("* 9.  Remove A Jet From The Fleet *");
+		System.out.println("* 10. Quit                        *");
+		System.out.println("***********************************");
 
 	}
 }

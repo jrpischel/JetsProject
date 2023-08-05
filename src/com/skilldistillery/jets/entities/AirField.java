@@ -185,4 +185,21 @@ public class AirField {
 		fleetOfShips.remove(modelChoice - 1);
 	}
 
+	public void singleFly(Scanner kb) {
+		Jet ship = null;
+		int counter = 1;
+		int modelChoice = 0;
+		System.out.println("*****************************************************");
+		System.out.println("  What is the MODEL of the ship you wish to FLY?  ");
+		for (Jet jet : fleetOfShips) {
+			System.out.println("  " + counter + " " + jet.getModel());
+			counter++;
+		}
+		System.out.println("*****************************************************");
+		modelChoice = kb.nextInt();
+		kb.nextLine();
+		ship = fleetOfShips.get(modelChoice - 1);
+		ship.fly();
+		
+	}
 }
