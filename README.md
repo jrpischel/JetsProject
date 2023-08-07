@@ -10,6 +10,7 @@
 - Eclipse
 - Git
 - GitHub
+- Sublime
 
 # Lessons Learned
 
@@ -34,3 +35,7 @@
 - Use of setters
 - Use of Overrides
 - Use of Overloaded Methods
+- Use of InstanceOf
+- Use of Implementation
+- Use of Extends
+- Use of Abstract Classes and Methods 
